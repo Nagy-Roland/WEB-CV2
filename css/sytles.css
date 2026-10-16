@@ -1,0 +1,576 @@
+body {
+    background-image: url(../img/darkdenim3.png);
+    background-repeat: repeat;
+    color: #374151;
+    font-size: 11px;
+    height: auto;
+    padding: 20px 0;
+    background-attachment: fixed;
+}
+
+a {
+    color: #4b5563;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:link { color: #4b5563; }      
+a:visited { color: #4b5563; }  
+
+h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #111827;
+    font-size: 60px;
+    text-align: left;
+    font-weight: normal;
+}
+
+h2 {
+    padding-top: 0px;
+    text-align: center;
+}
+
+p {
+    padding: 10px 0;
+}
+
+img.floatLeft {
+    float: left;
+    margin: 10px 20px 15px 0px;
+    background-color: #FFFFFF;
+    border: 5px solid #e5e7eb;
+    border-radius: 100px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    height: 135px;
+    padding: 4px;
+    width: 120px;
+    object-fit: cover;
+}
+
+.item p {
+    color: #4b5563;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.item_tittle h1 {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: left;
+    color: #111827;
+    padding: 10px 0 0;
+    text-transform: uppercase;
+}
+
+.item_tittle h1 span {
+    background: #4b5563;
+    border-radius: 4px;
+    color: #ffffff;
+    float: right;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 7px 0 0;
+    padding: 0 5px;
+    margin-right: 0;
+}
+
+.item_tittle h2 {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: left;
+    color: #111827;
+}
+
+.item_tittle h3 {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: right;
+    color: #111827;
+}
+
+.container_12,
+.container_16,
+.container_24 {
+    background-color: #fff;
+}
+
+.container_12 {
+    background-image: url(../img/12_col.gif);
+}
+
+.container_16 {
+    background-image: url(../img/16_col.gif);
+}
+
+.container_24 {
+    background-image: url(../img/groovepaper.png);
+}
+
+.holder {
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+/* === HEADER === */
+#header {
+    background-image: url(../img/resume.png);
+    width: 990px;
+    height: 87px;
+    margin: auto;
+}
+
+#header_bg {
+    background-color: #ffffff;
+    width: 950px;
+    height: 200px;
+    margin: auto;
+}
+
+.social_panel {
+    float: right;
+    padding: 34px 60px 0 0;
+}
+
+.social_panel li {
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.social_panel ul {
+    list-style: none;
+}
+
+.social_panel li.last {
+    margin: 0;
+}
+
+.main_panel {
+    float: right;
+    padding: 34px 60px 0 0;
+}
+
+.main_panel a { color: #fff; }   
+.main_panel a:link { color: #fff; }      
+.main_panel a:visited { color: #fff; }  
+    
+.main_panel li {
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.main_panel ul {
+    list-style: none;
+}
+
+.main_panel li.last {
+    margin: 0;
+}
+    
+/* === NAME AND TITLE === */ 
+#name_tittle {
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#name_tittle h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #1e3a8a;
+    font-size: 85px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#name_tittle ul {
+    color: #4b5563;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.0em;
+    list-style-type: none;
+    margin: -24px 0 0 -31px;
+    text-align: left;
+}
+
+#name_tittle li {
+    padding: 0px;
+}
+
+/* === CONTACT LIST === */ 
+.work_list {
+    float: left;
+    margin: 0 0 0 -70px;
+    text-align: right;
+}
+
+.work_list h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 24px;
+    color: #4b5563;
+    margin: 0px 0 0 30px;
+}
+
+.work_list h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: #111827;
+    margin: 0 0 0 30px; 
+    text-align: left;
+}
+
+.work_list h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: #2563eb;
+    margin: 0 0 0 30px; 
+    text-align: left;
+    border-bottom: 2px solid #2563eb;
+    width: 390px;
+}
+
+.work_list ul {
+    font-family: 'PT Sans Narrow', sans-serif;
+    line-height: 1.5em;
+    color: #4b5563;
+    font-size: 18px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.work_list li {
+    border-bottom: 1px solid #e5e7eb;
+    width: 390px;
+}
+
+.vertical_line {
+    height: 600px;
+    background-image: url("../img/vertical_line.png");
+    background-repeat: repeat-y;
+    margin: 43px 0 0;
+}
+
+.vertical_line2 {
+    height: 270px;
+    background-image: url("../img/vertical_line.png");
+    background-repeat: repeat-y;
+}
+
+.horisontal_line {
+    height: 40px;
+    width: 870px;
+    margin: auto;
+    background-image: url("../img/horisontal_line.png");
+    background-repeat: repeat-x;
+}
+
+/* === RIBBON === */   
+.ribbon {
+    color: #2563eb;
+    font-size: 30px;
+    width: 390px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    border-bottom: 1px dotted #2563eb;
+    border-top: 1px dotted #2563eb;
+}
+
+.ribbon2 {
+    color: #2563eb;
+    font-size: 30px;
+    width: 390px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    border-bottom: 3px dotted #9ca3af;
+}
+
+.ribbon_portfolio {
+    border-bottom: 3px dotted #9ca3af;
+    color: #2563eb;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    width: 865px;
+}
+
+/* === YOUR PHOTO / AVATAR === */   
+#avatar {
+    border: 1px solid #e5e7eb;
+    padding: 4px;
+    margin: 0 10px 0 0;
+    float: left;
+    height: 160px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+#skill_list2 {
+    float: left;
+    margin: -5px 0 0 -30px;
+}
+
+.year {
+    height: 100px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 22px;
+    color: #4b5563;
+    padding: 0 0 0 10px;
+}
+
+/* === SKILL SET === */
+#skill_list ul {
+    list-style-type: none;
+    text-align: right;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    line-height: 1.74em;
+}
+
+#skill_list2 ul {
+    list-style-type: none;
+    text-align: left;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+#skill_set {
+    margin: 0;
+}
+
+#skill_set ul {
+    list-style-type: none;
+}
+
+#technical_skill {
+    height: 240px;
+    margin: 15px 0 0;
+}
+
+.progress_container {
+    padding: 1px;
+    height: 15px;
+    overflow: hidden;
+    background-color: #e5e7eb;
+    margin: 0 0 10px 90px;
+    width: 270px;
+}
+    
+.progress_bar {
+    height: 22px;
+    width: 0px;
+    background-color: #2563eb;
+}
+
+.photoshop {
+    height: 22px;
+    width: 0px;
+    background-color: #3b82f6;
+}
+
+.ilustrator {
+    height: 22px;
+    width: 0px;
+    background-color: #2563eb;
+}
+
+.dreamweaver {
+    height: 22px;
+    width: 0px;
+    background-color: #3b82f6;
+}
+
+.flash {
+    height: 22px;
+    width: 0px;
+    background-color: #2563eb;
+}
+
+.html {
+    height: 22px;
+    width: 0px;
+    background-color: #2563eb;
+}
+
+.css {
+    height: 22px;
+    width: 0px;
+    background-color: #2563eb;
+}
+
+.java {
+    height: 22px;
+    width: 0px;
+    background-color: #2563eb;
+}
+
+.cms {
+    height: 22px;
+    width: 0px;
+    background-color: #7c3aed;
+}
+
+.seo {
+    height: 22px;
+    width: 0px;
+    background-color: #7c3aed;
+}
+
+.php {
+    height: 22px;
+    width: 0px;
+    background-color: #2563eb;
+}
+
+/* === jQuery lightBox plugin - Gallery style === */   
+#gallery {
+    padding: 25px 12px;
+    width: 930px;
+}
+
+#gallery2 {
+    width: 100%;
+    padding: 33px 0 10px;
+}
+
+#gallery img { padding: 4px; }
+#gallery ul { list-style: none; }
+#gallery ul li { display: inline; }
+
+#gallery ul img {
+    border: 1px solid #e5e7eb;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+#gallery ul a:hover img {
+    border: 1px solid #9ca3af;
+}
+
+#gallery ul a:hover { color: #fff; }
+
+/* === CONTACT FORM === */   
+#page-wrap {
+    width: 660px;
+    background: white;
+    padding: 20px 50px;
+    margin: 20px auto;
+    min-height: 500px;
+}
+
+#contact-area {
+    width: 429px;
+    margin: 15px 0 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #4b5563;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#contact-area input, 
+#contact-area textarea {
+    padding: 5px;
+    width: 310px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+}
+
+#contact-area textarea {
+    height: 70px;
+}
+
+#contact-area textarea:focus, 
+#contact-area input:focus {
+    border: 1px solid #1e3a8a;
+    outline: none;
+}
+
+#contact-area input.submit-button {
+    width: 100px;
+    float: right;
+    margin: 0 36px 0 0;
+    background-color: #1e3a8a;
+    color: #FFFFFF;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+label {
+    float: left;
+    font-size: 1.4em;
+    padding-top: 0;
+    text-align: left;
+    width: 70px;
+}
+
+/* === WHY ME === */ 
+.why_me h1 {
+    color: #1e3a8a;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 24px;
+    margin: 0 0 0 18px;
+    text-align: left;
+    width: 372px;
+    font-weight: bold;
+}
+
+.why_me ul {
+    color: #4b5563;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 15px 0 0 -15px;
+    text-align: left;
+    width: 372px;
+}
+
+/* === DOWN TOP - GALLERY STYLE === */       
+.nav_up {
+    padding: 7px;
+    border: 1px solid #d1d5db;
+    position: fixed;
+    background: url("../img/images/arrow_up.png") no-repeat scroll 50% 50% #9ca3af;
+    width: 20px;
+    height: 20px;
+    bottom: 10px;
+    opacity: 0.7;
+    right: 30px;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.nav_down {
+    padding: 7px;
+    background-color: white;
+    border: 1px solid #d1d5db;
+    position: fixed;
+    background: url("../img/images/arrow_down.png") no-repeat scroll 50% 50% #9ca3af;
+    width: 20px;
+    height: 20px;
+    bottom: 10px;
+    opacity: 0.7;
+    right: 70px;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 4px;
+}
