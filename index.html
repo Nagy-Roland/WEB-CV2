@@ -79,10 +79,10 @@ $("document").ready(function (){
     });
 </script>
 
-<script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LevRfItAAAAAC1b44_IgY4xHnAjpi70akE9onyB"></script>
 <script>
     grecaptcha.ready(function() {
-        grecaptcha.execute('YOUR_SITE_KEY', {action: 'contact'}).then(function(token) {
+        grecaptcha.execute('6LevRfItAAAAAC1b44_IgY4xHnAjpi70akE9onyB', {action: 'contact'}).then(function(token) {
             var recaptchaResponse = document.getElementById('recaptchaResponse');
             if (recaptchaResponse) {
                 recaptchaResponse.value = token;
@@ -132,24 +132,7 @@ $("document").ready(function (){
         </div>
     </div>
 
-    <!-- CONTACT FORM -->
-<div id="contact-area">
-    <form method="post" action="process.php" id="contactForm">
-        <label for="Name">Name:</label>
-        <input type="text" name="Name" id="Name" required="required" />
-
-        <label for="Email">Email:</label>
-        <input type="text" name="Email" id="Email" required="required" />
-        
-        <label for="Message">Message:</label><br />
-        <textarea name="Message" rows="10" cols="20" id="Message" required="required"></textarea>
-
-        <!-- Invisible reCAPTCHA v3 token container -->
-        <input type="type" name="recaptcha_response" id="recaptchaResponse" style="display:none;" />
-
-        <input type="submit" name="submit" value="Submit" class="submit-button" />
-    </form>
-</div>
+    
 
 <div class="grid_1"><div class="holder"></div></div>
 <div class="clear"></div>
@@ -167,7 +150,7 @@ $("document").ready(function (){
         </p>
     </div>
  
-    <div class="ribbon2">Summary</div>
+    <div class="ribbon2" style="margin-top: 40px;">Summary</div>
     <div class="item">
         <p> 
             Gaining hands-on experience in software development, database management, and building web applications through university coursework and personal projects. Focusing on:
@@ -231,8 +214,8 @@ $("document").ready(function (){
     <div class="ribbon2">Experience</div>
 
     <div class="item_tittle"> 
-        <h1>HOME CLEAR FIRST<span>2026 - Present</span></h1>
-        <h2>Frontend & Backend Development Intern | Târgu Mureș</h2>
+        <h1>HOME CLEAR FIRST<span span style="margin-top: 61px;">2026 - Present</span></h1>
+        <h2>Web Developer Intern | Târgu Mureș</h2>
     </div>
     <div class="item">
         <p>Assisting with website development and maintenance, helping implement UI/UX components.</p>
@@ -248,7 +231,7 @@ $("document").ready(function (){
 <div class="grid_1"><div class="holder"></div></div>
 
 <div class="grid_24">
-    <div class="item">
+    <div class="item" style="padding-left: 40px;">
         <p><b>E-mail:</b> roland.nagy9049@gmail.com</p>
         <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/roland-nagy-a68b22409" target="_blank">Roland Nagy</a></p>
         <p><b>GitHub:</b> <a href="https://github.com/Nagy-Roland" target="_blank">Nagy-Roland</a></p>
@@ -256,6 +239,24 @@ $("document").ready(function (){
     <div style="clear: both;"></div>
 </div>
 
+<!-- CONTACT FORM -->
+<div id="contact-area" style="padding-left: 45px;">
+    <form method="post" action="process.php" id="contactForm">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name" required="required" />
+
+        <label for="Email">Email:</label>
+        <input type="text" name="Email" id="Email" required="required" />
+        
+        <label for="Message">Message:</label><br />
+        <textarea name="Message" rows="10" cols="20" id="Message" required="required"></textarea>
+
+        <!-- Invisible reCAPTCHA v3 token container -->
+        <input type="type" name="recaptcha_response" id="recaptchaResponse" style="display:none;" />
+
+        <input type="submit" name="submit" value="Submit" class="submit-button" />
+    </form>
+</div>
 <div class="grid_24"><div class="horisontal_line"></div></div> 
 
 </div><!-- END .CONTAINER_24 -->

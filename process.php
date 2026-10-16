@@ -1,11 +1,11 @@
 <?php
+include 'config.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = trim($_POST['Name'] ?? '');
     $email = trim($_POST['Email'] ?? '');
     $message = trim($_POST['Message'] ?? '');
     $recaptcha_response = $_POST['recaptcha_response'] ?? '';
 
-    $secret_key = 'YOUR_SECRET_KEY'; 
     $verify_url = 'https://www.google.com/recaptcha/api/siteverify?secret=' . urlencode($secret_key) . '&response=' . urlencode($recaptcha_response);
     
     $response = file_get_contents($verify_url);
